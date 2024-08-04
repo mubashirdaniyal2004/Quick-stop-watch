@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <!-- link style file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cantainer">
+      <div class="heading">
+        <h1>Stop-Watch</h1>
+      </div>
+      <div class="time">
+        <h2 id="hour">00</h2>
+        <h2>:</h2>
+
+        <h2 id="min">00</h2>
+        <h2>:</h2>
+
+        <h2 id="sec">00</h2>
+        <h2>:</h2>
+
+        <h2 id="millisec">00</h2>
+      </div>
+
+      <div class="buttons">
+        <button onclick="start()" id="start">start</button>
+        <button onclick="rst()" id="rst">Reset</button>
+        <button onclick="stop()" id="stop">stop</button>
+      </div>
+    </div>
+    <!-- link js file -->
+    <script src="logic.js"></script>
+  </body>
+</html>
